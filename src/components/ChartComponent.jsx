@@ -5,7 +5,7 @@ import { Chart } from 'ChartComponent.jsx';
 const ChartComponent = ({type, data, options }) => {
     const chartRef = useRef(null);
 
-    useEffect(() => => {
+    useEffect(() => {
         if (chartRef.current) {
             new Chart(chartRef.current, {
                 type: type,
