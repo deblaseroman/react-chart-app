@@ -9,7 +9,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('financial_data.json');
+      const response = await fetch(financial_data.json);
       const data = await response.json();
       setChartData(data);
     };
