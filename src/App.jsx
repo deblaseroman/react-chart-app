@@ -5,6 +5,7 @@ import BarChart from './components/BarChart';
 import LineChart from './components/LineChart';
 import ScatterChart from './components/ScatterChart';
 import BarChart from './components/BarChart';
+import App from './components/App';
 
 const App = () => {
     const [chartData, setChartData] = useState(null);
